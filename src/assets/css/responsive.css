@@ -1,0 +1,37 @@
+/* Estilos para smartphones (até 767px) */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    flex-direction: column;
+    background: var(--cor-primaria);
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+
+  nav ul.menu-ativo {
+    right: 0;
+  }
+
+  #inicio h1 {
+    font-size: 2.5rem;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* Estilos para tablets (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Estilos para desktops (1025px ou maior) */
+@media (min-width: 1025px) {
+}

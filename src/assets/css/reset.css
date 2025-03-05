@@ -1,0 +1,32 @@
+/* Reset básico para remover margens e padding padrões*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: var(--cor-fundo-body); /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha para legibilidade */
+ 
+}
+
+/* Estilizando cabeçalhos */
+h1 {
+    font-size: 2.5em; /* Tamanho do cabeçalho */
+    color:var(--cor-titulos);
+    /* text-align: center; Centraliza o texto */
+}
+
+/* Estilizando parágrafos */
+p {
+    font-size: 2.0em; /* Tamanho do texto do parágrafo */
+    margin: 20px; /* Margem ao redor dos parágrafos */
+    color: var(--cor-textos);
+}
